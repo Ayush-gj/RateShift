@@ -1,0 +1,39 @@
+name: currency_converter
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  provider: ^6.1.2
+  http: ^1.2.0
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  # 1. ADDED: This tool generates the icons for you
+  flutter_launcher_icons: ^0.13.1
+
+# 2. ADDED: Configuration for your logo (image_8a0a78.png as .jpg)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.jpg"
+  adaptive_icon_background: "#000000" # Matches your logo's black background
+  adaptive_icon_foreground: "assets/icon/app_icon.jpg"
+
+flutter:
+  uses-material-design: true
+
+  # 3. ADDED: Register the assets folder so Flutter recognizes the file
+  assets:
+    - assets/icon/app_icon.jpg

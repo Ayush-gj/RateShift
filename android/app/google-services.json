@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "444128108924",
+    "project_id": "rateshift-76595",
+    "storage_bucket": "rateshift-76595.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444128108924:android:95324e538821b312b1c4f9",
+        "android_client_info": {
+          "package_name": "com.example.currency_converter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444128108924-b3vjvl3ttsd8kscprgkmdu8obgsea8ru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeeD2osst23imWFVxe33I9B2Lj8pU_MQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444128108924-b3vjvl3ttsd8kscprgkmdu8obgsea8ru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
