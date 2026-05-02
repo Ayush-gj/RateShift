@@ -36,12 +36,3 @@ To get a local copy up and running, follow these steps:
     ```bash
     flutter run
     ```
-
-## 📜 About the Developer
-**Ayush Gupta**  
-*   **Education**: B.Tech in Computer Science (Class of 2028) at KIET Group of Institutions.
-*   **Certification**: AWS Certified Cloud Practitioner.
-*   **Focus**: Mobile App Development (Kotlin/Flutter) and Artificial Intelligence.
-
----
-*Market rates provided by ExchangeRate-API. News provided by NewsAPI.*
