@@ -3,6 +3,8 @@
 
 RateShift is a cross-platform mobile application designed to provide real-time currency conversion with a focus on speed, precision, and a modern "Neon-Finance" aesthetic. Built using **Flutter** and **Dart**, the app prioritizes a clean user experience by maintaining professional-grade features without unnecessary friction.
 
+***As i have used a news API key in api_service.dart file to i have changed my API key to YOUR API KEY***
+
 ---
 
 ## 🚀 Key Features
