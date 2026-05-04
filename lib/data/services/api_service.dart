@@ -6,7 +6,7 @@ class ApiService {
   static const String _currencyBaseUrl = 'https://api.exchangerate-api.com/v4/latest';
 
   // Strict currency filter applied here
-  static const String _newsApiUrl = 'https://newsapi.org/v2/everything?q=(currency OR forex OR "exchange rate")&searchIn=title&language=en&sortBy=publishedAt&apiKey=5ee7da67248e4235bfcecbe3b26546bb';
+  static const String _newsApiUrl = 'https://newsapi.org/v2/everything?q=(currency OR forex OR "exchange rate")&searchIn=title&language=en&sortBy=publishedAt&apiKey=YOUR API KEY';
 
   static Future<List<String>> getCurrencies() async {
     final response = await http.get(Uri.parse('$_currencyBaseUrl/USD'));
